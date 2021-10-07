@@ -3,6 +3,7 @@ package com.summative1.Summative1AssessmentOforiAlbert.models;
 import javax.validation.constraints.NotEmpty;
 import java.util.Objects;
 
+// Since object will be created from user JSON input, attributes are not final and default constructor defined
 public class Question {
 
     @NotEmpty(message = "Please enter a question.")
